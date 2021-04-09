@@ -8,8 +8,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p>Convert units</p>
-    <p>In construction...</p>
-    <script src="./script.js"></script>
+    <div id="container">
+        <form>
+            <input type="number" name="unit" id="unit">
+            <select name="units" id="units">
+                <option value="light-year">Light Year</option>
+                <option value="parsec">Parsec</option>
+                <option value="astronomical">Astronomical Unit</option>
+            </select>
+            <input type="submit" id="convert">
+        </form>
+    </div>
+    <div id="converted-unit">
+        <p></p>
+    </div>
 </body>
 </html>
