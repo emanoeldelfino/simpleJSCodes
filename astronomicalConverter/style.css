@@ -1,4 +1,10 @@
 body {
     color: white;
     background: black;
+    
+    background-image: url('https://media4.giphy.com/media/3ohhwEZqxzKbNUHzji/giphy.gif?cid=ecf05e47gbkx4zn2084sdtns1ompzizmexleeob1mq4fcknv&rid=giphy.gif');
+    background-size: cover;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
 }
